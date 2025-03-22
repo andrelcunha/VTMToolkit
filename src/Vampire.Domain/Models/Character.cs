@@ -1,4 +1,5 @@
 using System;
+using Vampire.Domain.Enums;
 
 namespace Vampire.Domain.Models;
 
@@ -6,8 +7,8 @@ public class Character
 {
     // Basic Information
     public string Name { get; set; }
-    public string Clan { get; set; }
-    public string PredatorType { get; set; }
+    public ClanType Clan { get; set; }
+    public PredatorType PredatorType { get; set; }
     public int Generation { get; set; } // Vampire generation (e.g., 13th Gen)
 
     // Attributes (Physical, Social, Mental)
