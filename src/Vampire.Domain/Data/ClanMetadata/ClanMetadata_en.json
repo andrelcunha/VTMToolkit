@@ -1,0 +1,82 @@
+[
+    {
+        "Name": "Brujah",
+        "Source": "Core Rulebook",
+        "Description": "Rebels and warriors, passionate and fierce in their beliefs."
+    },
+    {
+        "Name": "Gangrel",
+        "Source": "Core Rulebook",
+        "Description": "Feral survivors with a deep connection to the natural world."
+    },
+    {
+        "Name": "Malkavian",
+        "Source": "Core Rulebook",
+        "Description": "Insightful seers afflicted by supernatural madness."
+    },
+    {
+        "Name": "Nosferatu",
+        "Source": "Core Rulebook",
+        "Description": "Hideous vampires skilled in stealth and information brokering."
+    },
+    {
+        "Name": "Toreador",
+        "Source": "Core Rulebook",
+        "Description": "Artistic and charismatic vampires drawn to beauty and creation."
+    },
+    {
+        "Name": "Tremere",
+        "Source": "Core Rulebook",
+        "Description": "Blood sorcerers with an affinity for magic and rigid hierarchy."
+    },
+    {
+        "Name": "Ventrue",
+        "Source": "Core Rulebook",
+        "Description": "Noble rulers and leaders who seek control and stability."
+    },
+    {
+        "Name": "Caitiff",
+        "Source": "Core Rulebook",
+        "Description": "Clanless vampires who often struggle to find their place."
+    },
+    {
+        "Name": "ThinBlood",
+        "Source": "Core Rulebook",
+        "Description": "Weakened vampires of diluted blood with limited powers."
+    },
+    {
+        "Name": "Tzimisce",
+        "Source": "Companion",
+        "Description": "Flesh-shaping vampires with a penchant for cruelty and control."
+    },
+    {
+        "Name": "Ravnos",
+        "Source": "Companion",
+        "Description": "Tricksters and wanderers with the ability to create illusions."
+    },
+    {
+        "Name": "Salubri",
+        "Source": "Companion",
+        "Description": "Spiritual healers and warriors seeking redemption."
+    },
+    {
+        "Name": "BanuHaqim",
+        "Source": "Camarilla",
+        "Description": "Assassins and judges, known for their skills and blood sorcery."
+    },
+    {
+        "Name": "TheMinistery",
+        "Source": "Anarchs",
+        "Description": "Deceptive vampires using liberation and seduction to gain power."
+    },
+    {
+        "Name": "Hecata",
+        "Source": "Cults of the Blood Gods",
+        "Description": "The unified Clan of Death, necromancers obsessed with Oblivion."
+    },
+    {
+        "Name": "Lasombra",
+        "Source": "Chicago by Night",
+        "Description": "Masters of shadow and darkness, manipulative and formidable."
+    }
+]
