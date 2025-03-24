@@ -1,4 +1,4 @@
-using System;
+using AutoMapper;
 using Vampire.Domain.Models;
 
 namespace Vampire.API.Services;
@@ -6,12 +6,17 @@ namespace Vampire.API.Services;
 public class CharacterRepository : ICharacterRepository
 {
     private readonly List<Character> _characters = new();
+    private readonly IMapper _mapper;
 
-    public async Task<Character> GetCharacterByIdAsync(Guid id)
+    public CharacterRepository(IMapper mapper)
+    {
+        _mapper = mapper;
+    }
+
+    public async Task<Character?> GetCharacterByIdAsync(Guid id)
     {
         return await Task.FromResult(_characters.FirstOrDefault(c => c.Id == id));
     }
-
     public async Task<IEnumerable<Character>> GetAllCharactersAsync()
     {
         return await Task.FromResult(_characters);
@@ -28,9 +33,7 @@ public class CharacterRepository : ICharacterRepository
         var existingCharacter = _characters.FirstOrDefault(c => c.Id == character.Id);
         if (existingCharacter != null)
         {
-            existingCharacter.Name = character.Name;
-            existingCharacter.Clan = character.Clan;
-            existingCharacter.Age = character.Age;
+            _mapper.Map(character, existingCharacter);
         }
         await Task.CompletedTask;
     }

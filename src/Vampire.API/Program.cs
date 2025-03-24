@@ -1,4 +1,6 @@
 
+using Vampire.API.Services;
+
 namespace Vampire.API;
 
 public class Program
@@ -10,9 +12,14 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
+        // Add your services and repository to the DI container
+        builder.Services.AddScoped<ICharacterService, CharacterService>();
+        builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddAutoMapper(typeof(Program));
 
         var app = builder.Build();
 
