@@ -7,21 +7,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC71E75E-BFA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vampire.Domain", "src\Vampire.Domain\Vampire.Domain.csproj", "{D4D74E94-725C-4C68-895C-1FDE7FC835DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vampire.API", "src\Vampire.API\Vampire.API.csproj", "{7A3F916A-ED39-40A3-85D2-6F7E39A902FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D4D74E94-725C-4C68-895C-1FDE7FC835DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4D74E94-725C-4C68-895C-1FDE7FC835DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D74E94-725C-4C68-895C-1FDE7FC835DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D74E94-725C-4C68-895C-1FDE7FC835DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3F916A-ED39-40A3-85D2-6F7E39A902FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3F916A-ED39-40A3-85D2-6F7E39A902FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3F916A-ED39-40A3-85D2-6F7E39A902FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3F916A-ED39-40A3-85D2-6F7E39A902FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4D74E94-725C-4C68-895C-1FDE7FC835DB} = {CC71E75E-BFAC-43E3-99F8-B2C85C517D89}
+		{7A3F916A-ED39-40A3-85D2-6F7E39A902FD} = {CC71E75E-BFAC-43E3-99F8-B2C85C517D89}
 	EndGlobalSection
 EndGlobal

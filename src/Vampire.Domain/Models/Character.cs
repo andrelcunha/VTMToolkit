@@ -5,6 +5,7 @@ namespace Vampire.Domain.Models;
 
 public class Character
 {
+    public Guid Id { get; set; }
     // Basic Information
     public string Name { get; set; }
     public ClanType Clan { get; set; }
